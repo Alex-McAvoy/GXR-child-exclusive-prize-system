@@ -41,9 +41,9 @@ $(function() {
 					var margin_left; //花瓣所在位置，取随机数
 					margin_left = randomNum(5, 100);
 					time = randomNum(par.time_min, par.time_max);
-					console.log(time);
+					// console.log(time);
 					image_daxiao = randomNum(par.image_min, par.image_max);
-					console.log(image_daxiao);
+					// console.log(image_daxiao);
 					$('#sakura-img:last-child').after('<img id="sakura-img" src="../resouces/img/sakura/sakura.png">');
 					$('#sakura-img:last-child').css({
 						'margin-left': margin_left + '%',
