@@ -28,7 +28,7 @@ function indexDisplayPrize() {
 }
 
 // 抽奖页展示中奖信息汇总
-function prizepoolDisplayPrize(){
+function shoppingCartDisplayPrize(){
 	sessionStorage.setItem("from","prize");//存session
 	window.location.href="./index.html";//跳转到主页
 }
