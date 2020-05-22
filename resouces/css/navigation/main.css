@@ -6,26 +6,26 @@
 }
 
 /* 购物车奖品池页导航栏 */
-.prizepool-nav{
+.shopping-cart-nav{
 	z-index: 99999;
 	background-color:rgba(0,0,0,0.3); 
 	border: #000000; 
 }
-.prizepool-nav .prizepool-navbar-brand{
+.shopping-cart-nav .shopping-cart-navbar-brand{
 	color: #FFFFFF;
 }
-.prizepool-nav .prizepool-navbar-brand:hover{
+.shopping-cart-nav .shopping-cart-navbar-brand:hover{
 	color: #FFFFFF;
 }
-.prizepool-nav .pirzepool-navbar li a{
+.shopping-cart-nav .pirzepool-navbar li a{
 	color: #ffffff;
 }
-.prizepool-nav .pirzepool-navbar li a:hover{
+.shopping-cart-nav .pirzepool-navbar li a:hover{
 	color: #ffffff;
 }
-.prizepool-nav .pirzepool-navbar .dropdown-menu{
+.shopping-cart-nav .pirzepool-navbar .dropdown-menu{
 	background-color:rgba(0,0,0,0.3); 
 }
-.prizepool-nav .pirzepool-navbar .dropdown-menu a:hover{
+.shopping-cart-nav .pirzepool-navbar .dropdown-menu a:hover{
 	background-color:rgba(0,0,0,0.3); 
 }
