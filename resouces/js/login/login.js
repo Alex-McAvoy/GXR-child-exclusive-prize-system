@@ -6,6 +6,11 @@ $(document).ready(function() {
 		success: function(data) {
 			json_user = data.user;
 			json_password = data.password;
+			json_num=data.num;
+			sessionStorage.setItem("num",json_num);//存session			
+		},
+		error:function(){
+			sessionStorage.setItem("num","error");//存session
 		}
 	})
 });
